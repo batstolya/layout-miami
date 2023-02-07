@@ -1,0 +1,12 @@
+.logo {
+  &__image {
+    width: 130px;
+  }
+
+  @include onTablet() {
+    &__image {
+      width: 190px;
+    }
+  }
+}
+
